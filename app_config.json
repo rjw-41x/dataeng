@@ -1,0 +1,21 @@
+{
+    "postgres":{
+        "host":"localhost",
+        "user":"randywillard",
+        "passwd":"password",
+        "db":"randywillard"
+    },
+    "kafka":{
+        "zookeeper": "localhost:2181",
+        "bootstrap-server": "localhost:9092",
+        "topic": "xx"
+    },
+    "other":{
+        "a_list":[
+            "preprocessing.scale_and_center",
+            "preprocessing.dot_reduction",
+            "preprocessing.connect_lines"
+            ],
+        "use_anonymous":true
+    }
+}
